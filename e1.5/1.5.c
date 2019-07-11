@@ -74,22 +74,24 @@ double pi (int n)
     return pi * 4;          /*Retorna o resultado da soma e subtração x 4 */
 }
 
-/*Função principal */
+/*
+Função principal
 int main ()
 {
     float n, result;
     int p;
 
     do {
-        printf("Quantidade de casas: ");            /*Solicita a quantidade de casas decimais para mostrar (de 1 a 5) */
+        printf("Quantidade de casas: ");            *Solicita a quantidade de casas decimais para mostrar (de 1 a 5)*
         scanf(" %d", &p);
         if (p > 5 || p <= 0)
             printf("Número de casas inválido. Tente um número entre 1 e 5\n");
     } while (p > 5 || p <= 0);
 
-    result = pi(p);     /*Result recebe o valor de pi */
+    result = pi(p);     *Result recebe o valor de pi*
 
-    mostra_float(result, p);        /*Mostra pi na tela com a quantidade de casas solicitadas */
+    mostra_float(result, p);        *Mostra pi na tela com a quantidade de casas solicitadas*
 
     return 0;
 }
+*/
