@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*4. Matrizes. Exercício 4.2 e 4.1*/
+/*4. Matrizes. Exercício 4.2 e 4.1.*/
 
 struct matriz{
-    int m;
     int n;
+    int m;
     float** matriz;
 };
 
